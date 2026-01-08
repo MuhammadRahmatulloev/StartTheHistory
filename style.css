@@ -103,6 +103,115 @@
     font-weight: 400;
     font-family: sans-serif;
 }
+.hero-section
+{
+    background-color: aliceblue;
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section-p1
+{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.hero-section1
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.hero-section-divs
+{
+    display: flex;
+    align-items: end;
+    gap: 30px;
+}
+.hero-section-div1
+{
+    border-radius: 20px;
+    width: 280px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-section-div3
+{
+    border-radius: 20px;
+    width: 280px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-section-div2
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 330px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section-minidiv
+{
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #598BE0;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.hero-section-p2
+{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 80%;
+}
+.hero-section-p3
+{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 80%;
+}
+.airplanik2
+{
+    display: none;
+}
+.hero-section-buy
+{
+    background-color: #598BE0;
+    border-radius: 10px;
+    width: 250px;
+    height: 55px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
 @media (max-width: 600px)
 {
 .header
@@ -189,5 +298,95 @@
     font-size: 16px;
     position: absolute;
     top: 150px;
+}
+.hero-section
+{
+    width: 99%;
+    height: 2000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section-p1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.hero-section1
+{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.airplanik1
+{
+    display: none;
+}
+.airplanik2
+{
+    display: block;
+}
+.hero-section-divs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.hero-section-div1
+{
+    background-color: white;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.hero-section-div3
+{
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.hero-section-div2
+{
+    display: none;
+}
+.hero-section-minidiv
+{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.hero-section-p2
+{
+    font-size: 20px;
+    width: 80%;
+}
+.hero-section-p3
+{
+    font-size: 16px;
+    width: 80%;
+}
+.hero-section-buy
+{
+    display: flex;
 }
 }
