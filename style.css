@@ -1,0 +1,193 @@
+*
+{
+    margin: 0;
+}
+.header
+{
+    background-color: black;
+    width: 100%;
+    height: 820px;
+}
+.head
+{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.head-burger
+{
+    width: 60px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.head-p1
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.header1
+{
+    width: 100%;
+    height: 90%;
+    background-image: url("./earth.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.header-p1
+{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 55%;
+    text-align: center;
+}
+.header-p1-1
+{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.header-p2
+{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 18%;
+}
+.header-p2-1
+{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 10%;
+    align-self: flex-start;
+}
+.header-divs
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+    margin-right: 120px;
+}
+.header-div
+{
+    width: 250px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+@media (max-width: 600px)
+{
+.header
+{
+    width: 100%;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head
+{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.head-burger
+{
+    width: 60px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+.head-p1
+{
+    font-size: 20px;
+}
+.header1
+{
+    width: 95%;
+    height: 90%;
+    background-image: url("./earth2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.header-p1
+{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+.header-p1-1
+{
+    font-size: 45px;
+}
+.header-p2
+{
+    font-size: 16px;
+    width: 50%;
+}
+.header-p2-1
+{
+    font-size: 16px;
+    width: 50%;
+    align-self: flex-start;
+}
+.header-divs
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-right: 0px;
+    position: relative;
+}
+.header-div
+{
+    width: 250px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 16px;
+    position: absolute;
+    top: 150px;
+}
+}
