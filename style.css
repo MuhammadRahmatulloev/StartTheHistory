@@ -212,6 +212,99 @@
     font-weight: 600;
     font-family: sans-serif;
 }
+.get
+{
+    background-color: #222222;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.get-p1
+{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.get1
+{
+    width: 80%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.get2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.get-divs1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.get-div1
+{
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.get-p2
+{
+    color: #598BE0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 70%;
+}
+.get-p3
+{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 65%;
+}
+.get-div2
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 585px;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get3
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.get-ps
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (max-width: 600px)
 {
 .header
@@ -388,5 +481,69 @@
 .hero-section-buy
 {
     display: flex;
+}.get
+{
+    width: 100%;
+    height: 1600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.get-p1
+{
+    font-size: 40px;
+}
+.get1
+{
+    width: 85%;
+    height: 1330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.get2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.laptop
+{
+    width: 300px;
+}
+.get-divs1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.get-div1
+{
+    width: 90%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.get-div2
+{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get3
+{
+    display: none;
 }
 }
