@@ -425,6 +425,160 @@
     width: 22px;
     height: 22px;
 }
+.product
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.product-p1
+{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.product-p2
+{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.product-p3
+{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.product-txt
+{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: relative;
+    right: 100px;
+}
+.product-txt-2
+{
+    width: 70%;
+    height: 80px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: relative;
+    left: 100px;
+}
+.product-txt1
+{
+    width: 266px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-txt2
+{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-txt3
+{
+    width: 330px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-txt4
+{
+    width: 265px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mormorak-dot
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.dot1
+{
+    position: absolute;
+    right: 965px;
+    bottom: 10px;
+}
+.dot2
+{
+    position: absolute;
+    right: 1180px;
+    top: 15px;
+}
+.dot3
+{
+    position: absolute;
+    right: 785px;
+    bottom: 15px;
+}
+.dot4
+{
+    position: absolute;
+    right: 640px;
+    bottom: 0px;
+}
+.dot5
+{
+    position: absolute;
+    right: 430px;
+    bottom: 15px;
+}
+.dot6
+{
+    position: absolute;
+    right: 165px;
+    bottom: 0px;
+}
+.mormorak2
+{
+    display: none;
+}
+.dot1-1
+{
+    display: none;
+}
+.dot2-1
+{
+    display: none;
+}
+.dot3-1
+{
+    display: none;
+}
+.dot4-1
+{
+    display: none;
+}
+.dot5-1
+{
+    display: none;
+}
+.dot6-1
+{
+    display: none;
+}
 @media (max-width: 600px)
 {
 .header
@@ -742,5 +896,133 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+.product
+{
+    width: 99%;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+.product-p1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.product-txt
+{
+    width: 95%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+    right: 0px;
+}
+.product-txt-2
+{
+    width: 95%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+    left: 0px;
+}
+.product-txt1
+{
+    width: 266px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-txt2
+{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-txt3
+{
+    width: 330px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-txt4
+{
+    width: 265px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mormorak-dot
+{
+    display: none;
+}
+.mormorak
+{
+    display: none;
+}
+.mormorak2
+{
+    display: block;
+    position: absolute;
+    top: 230px;
+    left: 350px;
+}
+.dot1-1
+{
+    display: block;
+    position: absolute;
+    top: 225px;
+    left: 345px;
+}
+.dot2-1
+{
+    display: block;
+    position: absolute;
+    top: 355px;
+    left: 350px;
+}
+.dot3-1
+{
+    display: block;
+    position: absolute;
+    top: 465px;
+    left: 350px;
+}
+.dot4-1
+{
+    display: block;
+    position: absolute;
+    top: 585px;
+    left: 350px;
+}
+.dot5-1
+{
+    display: block;
+    position: absolute;
+    top: 730px;
+    left: 360px;
+}
+.dot6-1
+{
+    display: block;
+    position: absolute;
+    top: 920px;
+    left: 360px;
 }
 }
