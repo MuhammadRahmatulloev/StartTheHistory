@@ -579,6 +579,83 @@
 {
     display: none;
 }
+.chat
+{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+.chat-p1
+{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.chat-p2
+{
+    color: #747474;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    width: 50%;
+    text-align: center;
+}
+.chat-imgs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.chat-divs
+{
+    display: flex;
+    gap: 30px;
+}
+.chat-div1
+{
+    background-color: #EAEBED;
+    border-radius: 10px;
+    width: 500px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #598BE0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.chat-div2
+{
+    background-color: #222222;
+    border-radius: 10px;
+    width: 670px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #598BE0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.chat-put
+{
+    position: absolute;
+    bottom: 800px;
+    left: 1300px;
+}
+.chat-put-1
+{
+    display: none;
+}
 @media (max-width: 600px)
 {
 .header
@@ -1024,5 +1101,74 @@
     position: absolute;
     top: 920px;
     left: 360px;
+}
+.chat
+{
+    width: 99%;
+    height: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+.chat-p1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.chat-p2
+{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+}
+.chat-imgs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.chat-divs
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.chat-div1
+{
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: auto;
+}
+.chat-div2
+{
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+.chat-put
+{
+    display: none;
+}
+.chat-img
+{
+    display: none;
+}
+.chat-put-1
+{
+    display: block;
 }
 }
